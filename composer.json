@@ -1,0 +1,27 @@
+{
+  "name": "dazz/oauth2-server-httpfoundation-webtest",
+  "description":"A bridge for webtesting oauth2-server-php with bshaffer/oauth2-server-httpfoundation-bridge and silex",
+  "keywords":["oauth","oauth2","auth","httpfoundation", "test", "webtest"],
+  "type":"library",
+  "license":"MIT",
+  "authors":[
+    {
+      "name":"Hakin Dazs",
+      "email": "hakindazs@gmail.com"
+    }
+  ],
+  "homepage": "http://github.com/dazz/oauth2-server-httpfoundation-webtest",
+  "require":{
+    "php":">=5.3.0",
+    "bshaffer/oauth2-server-httpfoundation-bridge": "dev-develop"
+  },
+  "require-dev": {
+    "symfony/http-foundation": ">=2.1,<2.3-dev",
+    "symfony/browser-kit": ">=2.1,<2.3-dev",
+    "symfony/css-selector": ">=2.1,<2.3-dev",
+    "symfony/dom-crawler": ">=2.1,<2.3-dev"
+  },
+  "autoload": {
+    "psr-0": { "OAuth2\\HttpFoundationWebTest": "src/" }
+  }
+}
