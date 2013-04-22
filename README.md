@@ -13,10 +13,9 @@ add to `composer.json`
 
 ```json
 {
-  ...
   "require-dev": {
     "dazz/oauth2-server-httpfoundation-webtest":"dev-master"
-  }
+  },
   "repositories": [
     {
       "type": "vcs",
@@ -26,7 +25,7 @@ add to `composer.json`
 }
 ```
 
-run `composer.phar update --dev` this will install the required dependencies
+Run `composer.phar update --dev` to install the development dependencies.
 
 ## Example for Silex
 
@@ -40,7 +39,7 @@ class UserControllerTest extends WebTestCase
     public function testGetUser()
     {
         // create user, oauth2-client and access_token in the test-storage
-        $access_token = 'abc';
+        $accessToken = 'abc';
         // this creates the browsing client, not to mix up with the oauth2-client
         $client = $this->createClient();
 
