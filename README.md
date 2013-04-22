@@ -15,13 +15,7 @@ add to `composer.json`
 {
   "require-dev": {
     "dazz/oauth2-server-httpfoundation-webtest":"dev-master"
-  },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/dazz/oauth2-server-httpfoundation-webtest"
-    }
-  ]
+  }
 }
 ```
 
