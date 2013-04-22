@@ -3,7 +3,7 @@ oauth2-server-httpfoundation-webtest
 
 A webtesting bridge for oauth2-server-php with [bshaffer/oauth2-server-httpfoundation-bridge](https://github.com/bshaffer/oauth2-server-httpfoundation-bridge).
 
-Silex, Aymfony and other frameworks depending on symfony/http-kernel offer a WebTestCase class for testing controller/actions. In order to write webtests for actions that are secured by the bshaffer/oauth2-server-php the request instance needs to implement \OAuth2_RequestInterface.
+Silex, Symfony and other frameworks depending on symfony/http-kernel offer a WebTestCase class for testing controller/actions. In order to write webtests for actions that are secured by the bshaffer/oauth2-server-php the request instance needs to implement \OAuth2_RequestInterface.
 
 To achieve a valid request object the WebTestCase classes need to extend the WebTestCase class provided here.
 
