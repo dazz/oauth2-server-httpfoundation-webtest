@@ -7,7 +7,28 @@ Silex, Symfony and other frameworks depending on symfony/http-kernel offer a Web
 
 To achieve a valid request object the WebTestCase classes need to extend the WebTestCase class provided here.
 
-## Example
+## Install
+
+add to `composer.json`
+
+```json
+{
+  ...
+  "require-dev": {
+    "dazz/oauth2-server-httpfoundation-webtest":"dev-master"
+  }
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/dazz/oauth2-server-httpfoundation-webtest"
+    }
+  ]
+}
+```
+
+run `composer.phar update --dev` this will install the required dependencies
+
+## Example for Silex
 
 ```php
 namespace Company\Test\SomeBundle\Controller

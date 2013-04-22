@@ -1,5 +1,5 @@
 <?php
-namespace OAuth2\HttpFoundationWebTest;
+namespace OAuth2\HttpFoundationWebTest\Silex;
 
 use Silex\WebTestCase as BaseWebTestCase;
 use OAuth2\HttpFoundationWebTest\Client;
