@@ -23,5 +23,9 @@
   },
   "autoload": {
     "psr-0": { "OAuth2\\HttpFoundationWebTest": "src/" }
+  },
+  "suggest": {
+    "bshaffer/oauth2-server-php": "dev-develop",
+    "silex/silex": "1.0.*@dev"
   }
 }
