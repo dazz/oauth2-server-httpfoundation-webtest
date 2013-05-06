@@ -21,6 +21,7 @@
     "symfony/css-selector": ">=2.3,<2.4-dev",
     "symfony/dom-crawler": ">=2.3,<2.4-dev"
   },
+  "minimum-stability": "dev",
   "autoload": {
     "psr-0": { "OAuth2\\HttpFoundationWebTest": "src/" }
   },
