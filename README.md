@@ -13,6 +13,7 @@ add to `composer.json`
 
 ```json
 {
+  "minimum-stability": "dev",
   "require-dev": {
     "dazz/oauth2-server-httpfoundation-webtest":"dev-master"
   }
