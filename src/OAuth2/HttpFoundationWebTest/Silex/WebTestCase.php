@@ -8,7 +8,7 @@ abstract class WebTestCase extends BaseWebTestCase
 {
     /**
      * @param array $server
-     * @return null
+     * @return Client|\Symfony\Component\HttpKernel\Client
      */
     public function createClient(array $server = array())
     {
